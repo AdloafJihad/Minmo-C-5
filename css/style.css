@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part start here */
+
+header{width: 90%;margin: auto;display: flex;justify-content: space-between;height: 100px;align-items: center;margin-bottom: 50px;}
+.logo{
+
+width: 20%;
+}
+.logo img{
+}
+nav{
+
+width: 40%;
+
+}
+nav ul{list-style: none;display: flex;justify-content: space-between;}
+nav ul li{
+
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #626262;
+
+font-size: 14pt;
+font-family: 'Playfair Display', serif;
+}
+
+/* header part end here */
+
+/* Banner part start here */
+
+.banner{
+
+width: 90%;
+
+margin: auto;
+
+margin-bottom: 70px;
+}
+.banner img{
+    width: 100%;
+}
+
+/* Banner part end here */
+
+/* Photodairy Part Start Here */
+
+.photodairy_section{
+
+width: 80%;
+
+margin: auto;
+}
+.photodairy_section h4{
+
+font-family: 'Ubuntu Condensed', sans-serif;
+
+color: #b4ad9e;
+
+font-weight: 100;
+
+font-size: 14pt;
+
+/* margin-top: 70px; */
+
+margin-bottom: 15px;
+}
+.photodairy_section h1{
+
+font-family: 'Playfair Display', serif;
+
+color: #626262;
+
+font-size: 30pt;
+
+font-weight: 100;
+
+margin-bottom: 30px;
+}
+.photodairy_section p{
+
+font-size: 14pt;
+
+color: #626262;
+
+font-weight: 100;
+
+margin-bottom: 60px;
+}
+
+/* lifestyle and photodairy part start here */
+
+.lifestyle_and_photodairy{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+margin-top: 132px;
+}
+.lifestyle{width: 45%;}
+.lifestyle img{
+
+width: 100%;
+}
+.lifestyle h4{
+
+margin-top: 30px;
+}
+.lifestyle h1{
+
+font-size: 34px;
+}
+.lifestyle p{
+
+}
+.photodairy{
+
+width: 45%;
+}
+.photodairy img{
+
+width: 100%;
+}
+.photodairy h4{
+
+margin-top: 30px;
+}
+.photodairy h1{
+
+font-size: 34px;
+}
+.photodairy p{
+
+}
+.newsletter{
+
+background: #f0f0f0;
+
+padding: 60px 0;
+
+width: 100%;
+
+margin-top: 72px;
+}
+.signup{
+
+width: 36%;
+
+margin: auto;
+
+position: relative;
+}
+.signup h1{
+
+font-family: 'Playfair Display', serif;
+
+font-size: 30pt;
+
+font-weight: 500;
+
+margin-bottom: 96px;
+}
+.signup input{
+
+background: transparent;
+
+border: none;
+
+width: 100%;
+
+border-bottom: 1px black solid;
+
+font-family: 'Playfair Display', serif;
+
+font-size: 18px;
+
+padding-top: 5px;
+
+padding-bottom: 5px;
+}
+.signup input::placeholder{
+color: #626262;
+outline: non;
+}
+.signup input:focus-visible{
+    outline: none;
+}
+.signup i{
+    
+position: absolute;
+    
+bottom: 0;
+    
+right: 0;
+    
+padding-bottom: 5px;
+}
+
+/* load more section start here */
+
+.load_more{
+
+    text-align: center;
+    
+    margin-top: 100px;
+    
+    margin-bottom: 100px;
+    }
+    .load_more button{
+    
+width: 155px;
+    
+background: transparent;
+    
+height: 50px;
+    
+border-radius: 5px;
+    }
+    .load_more button a{
+        
+list-style: none;
+        
+text-decoration: none;
+        
+color: #878787;
+        
+font-size: 21px;
+
+font-family: 'Playfair Display', serif;
+    }
+    
+/* load more section end here */
+
+/* footer start here */
+
+footer{
+
+width: 100%;
+
+background: #f0f0f0;
+
+text-align: center;
+
+height: 98px;
+
+display: flex;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{width: 20%;padding-left: 10;}
+.left ul{
+
+display: flex;
+
+justify-content: space-between;
+}
+.left ul li{
+
+list-style: none;
+}
+.left ul li a{
+
+text-decoration: none;
+
+color: black;
+
+font-size: 17px;
+}
+.right{
+
+width: 12%;
+}
+.right ul{
+
+display: flex;
+
+justify-content: space-between;
+}
+.right ul li{
+
+list-style: none;
+}
+.right ul li h1{font-size: 17px;font-weight: 200;}
+.right ul li a i{
+    
+color: #626262;
+}
